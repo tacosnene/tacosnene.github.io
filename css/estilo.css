@@ -1,0 +1,313 @@
+/*body*/
+body{
+	/*para colocar una imagen de fondo*/
+	background-image:url("../imagenes/fondo.png");
+	/*para que no se repita la imagen de fondo*/
+	/*background-repeat: no-repeat;*/
+	/*para ajustar el tamaño de la imagen*/
+	/*background-size: 100% 100%;*/
+	/*color de fondo de la pagina*/
+	/*background-color: #9FEC11;*/
+	/*font family es para el tipo de letra: si el primero no lo encuentra coloca el segundo, sino el tercero*/
+	font-family: "fuente3";
+	/*font-size es para el tamaño, se expresaen pixeles*/
+	font-size: 40px;
+	/*color es para el color de las letras, puedes colocar un valor hexadecimal, el nombre del color o valores rbg*/
+	color:#432A4D;
+}
+
+hr{
+	/*border es para la linea, tamaño en pixeles, tipo de linea y color*/
+	border: 2px solid #AD41D6;
+	/*border-radius es para el terminado de las orillas, el radio que tendra se expresa en pixeles*/
+	border-radius: 2px
+}
+
+p{
+	/*text-align:se utiliza para alinear el texto por default estan alineados a la izquierda*/
+	text-align: justify;
+	font-size: 30px;
+	color: #16536c;
+	/*background-color: #E6B98C;*/
+}
+
+table, td, tr{
+	/*linea de grosor y tipo de linea*/
+	border: 3px solid;
+	/*color de la linea*/
+	border-color: #A3E4D7;
+	/*alineacion del texto*/
+	text-align: center;
+	/*color de fondo*/
+	background-color: #A9CCE3;
+}
+
+th{
+	/*color de fondo*/
+	background-color: white;
+}
+
+ul{
+	/*indica el tipo de viñeta, en este caso un circulo, puede ser tambien un cuadro*/
+	list-style-type: circle;
+	/*indica la posicion de la viñeta*/
+	list-style-position: inside;
+}
+
+ol{
+	/*algunos de los valores de list-style-type son: lower-alpha; lower-roman; upper-alpha; upper-roman;
+	a, b, c, d, e, f  i, ii, iii, iiii, iiii, iiiii  A, B, C, D, E, F,  I, II, III, IIII, IIIII*/
+	list-style-type: upper-roman;
+	list-style-position: inside;
+}
+
+.pie{
+	text-align: center;
+	font-size: 20px;
+	color: #4A235A;
+	font-family: fuente4;
+	font-weight: bold;
+}
+
+.text{
+	font-size: 45px;
+	color: #273746;
+	font-weight: bold;
+	text-align: center;
+	font-family: fuente1;
+}
+
+.table{
+	font-size: 20px;
+	color: #707B7C;
+	font-family: fuente2;
+}
+
+.imarquee{
+	width: 380px;
+	height: 380px;
+	border-radius: 10px;
+	border: 6px solid #D7BDE2;
+}
+
+.botones{
+	width: 100px;
+	height: 100px;
+	border-radius: 10%;
+	border: 6px solid #616A6B;
+}
+
+.otherimg{
+	width: 380px;
+	height: 380px;
+	border: 6px solid #3498DB;
+	border-radius: 10%;
+}
+
+.imtable{
+	width: 150px;
+	height: 150px;
+}
+
+@font-face{
+	font-family: fuente1;
+	src: url(../fuentes/atwriter.ttf);
+}
+
+@font-face{
+	font-family: fuente2;
+	src: url(../fuentes/handmade.otf);
+}
+
+@font-face{
+	font-family: fuente3;
+	src: url(../fuentes/ravise.ttf);
+}
+
+@font-face{
+	font-family: fuente4;
+	src: url(../fuentes/longreach.otf);
+}
+
+/*son otro tipo de fuentes pero sin descargar
+.fuentegoogle{
+	font-family: 'Patrick Hand', cursive;
+	font-size: 45px;
+	text-align: center;
+}*/
+	
+/*uso de div´s*/
+/*div o caja para el encabezado*/
+
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+div#top{
+	width: 100%;
+	height: 70px;
+	/*degrada los colores*/
+	background-image: linear-gradient(#D1F2EB, #F2F3F4);
+}
+	
+div#principal{
+	margin: auto;
+	margin-top: 10px;
+	width: 800px;
+	height: 670px;
+	background-image: radial-gradient(#EAEDED, #D6EAF8);
+}	
+	
+div#principal2{
+	margin: auto;
+	margin-top: 10px;
+	width: 800px;
+	height: 820px;
+	background-image: radial-gradient(#EAEDED, #D6EAF8);
+}		
+	
+div#principal3{
+	margin: auto;
+	margin-top: 10px;
+	width: 800px;
+	height: 1030px;
+	background-image: radial-gradient(#EAEDED, #D6EAF8);
+}	
+	
+div#principal4{
+	margin: auto;
+	margin-top: 10px;
+	width: 800px;
+	height: 1320px;
+	background-image: radial-gradient(#EAEDED, #D6EAF8);
+}
+div#principal5{
+	margin: auto;
+	margin-top: 10px;
+	width: 800px;
+	height: 1085px;
+	background-image: radial-gradient(#EAEDED, #D6EAF8);
+}
+	
+div#piep{
+	margin-top: 10px;
+	width: 750px;
+	height: 80px;
+	background-image: radial-gradient(#FEF9E7, #E9F7EF);
+}	
+
+.caja{
+	height: 210px;
+	width: 200px;
+	background: #F6DDCC;
+	border: 1px solid #F6DDCC;
+	margin: 5px;
+	color: black;
+	text-align: center;
+	display: inline-block;
+}
+	
+.caja:hover{
+	box-shadow: 0 0 10px #D5F5E3;
+	transform: scale(1.3);
+}
+
+.caja-texto{
+	padding-top: 2px;
+	font-size: 20px;
+	color: #F5B7B1;
+	font-weight: bold;
+}
+
+.texto-adicional{
+	padding: 5px;
+	font-size: 15px;
+}
+
+.carrousel{
+	width: 600px;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+.contecarrousel{
+	width: 100%;
+	height: 400px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+	
+.itemcarrousel{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+	
+.itemcarrouseltargeta{
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+	
+.itemcarrouselarrows{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	height: 100%;
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+}	
+	
+.itemcarrouselarrows>i:hover{
+	cursor: pointer;
+}
+	
+.contercarrouselcontroller{
+	width: 100%;
+	display: flax;
+	justify-content: space-between;
+}
+
+.contercarrouselcontroller>a{
+	text-decoration: none;
+	font-size: 32px;
+	color: grey;
+}
+
+.itemcarrouselarrows>a>i{
+	color: white;
+}
+
+.menu{
+	height: 110px;
+	width: 150px;
+	background: #F9E79F;
+	border: 2px solid #F5CBA7;
+	margin: 10px;
+	color: black;
+	text-align: center;
+	display: inline-block;
+}
+
+.menu:hover{
+	box-shadow: 0 0 20px pink;
+	border-radius: 2px;
+	color: pink;
+	padding: 25px;
+}
+
+.textop{
+	width: 400px;
+	background-image: linear-gradient(#E8F8F5, #F4ECF7);
+	font-size: 20px;
+	color: black;
+}	
+
